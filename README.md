@@ -49,6 +49,14 @@ The official CLI-Anything plugin (referenced from HKUDS/CLI-Anything, `main`).
 Adds `/cli-anything` commands to build, test and refine a new CLI for an app
 that isn't in the hub yet. Only needed if you want to make new ones.
 
+### `dev-kit`
+| Skill | Source | What it does |
+|---|---|---|
+| public-apis | public-apis/public-apis | Search ~2,400 free APIs by keyword, category, key/no key, HTTPS, CORS |
+
+The catalog is bundled (snapshot of commit 4c134b6); the skill can refresh it
+from the live list. Needs Python 3.
+
 ## Install
 
 ### Claude Code (terminal / desktop / IDE)
@@ -59,6 +67,7 @@ that isn't in the hub yet. Only needed if you want to make new ones.
 /plugin install ffmpeg-skill@arsenal
 /plugin install cli-hub@arsenal
 /plugin install cli-anything@arsenal
+/plugin install dev-kit@arsenal
 ```
 
 ### Cowork (Claude desktop app)
@@ -105,6 +114,7 @@ Skills are copied unchanged from these upstream repos:
 | affaan-m/ecc | 4adeee6 | MIT |
 | debpalash/VoiceStudio (skills/voicestudio only) | e9a8bc2 | AGPL-3.0 |
 | kajisho5/ffmpeg-skill (referenced, not copied) | `plugin` branch | MIT |
+| public-apis/public-apis (converted to a searchable catalog) | 4c134b6 | MIT |
 | HKUDS/CLI-Anything (cli-hub-meta-skill copied; plugin referenced) | 34f5195 / `main` | Apache-2.0 |
 
 Full license texts are in `licenses/`.

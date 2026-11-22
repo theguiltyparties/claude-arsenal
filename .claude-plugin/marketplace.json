@@ -49,6 +49,13 @@
       },
       "category": "development",
       "description": "Official CLI-Anything plugin: /cli-anything commands to build, test and refine a new agent-ready CLI for any app that does not have one yet."
+    },
+    {
+      "name": "dev-kit",
+      "source": "./plugins/dev-kit",
+      "version": "1.0.0",
+      "category": "development",
+      "description": "Developer helpers: find a free public API for any task (public-apis catalog with keyword, auth, HTTPS and CORS filters). Needs Python 3."
     }
   ]
 }
