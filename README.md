@@ -58,6 +58,24 @@ that isn't in the hub yet. Only needed if you want to make new ones.
 The catalog is bundled (snapshot of commit 4c134b6); the skill can refresh it
 from the live list. Needs Python 3.
 
+### `impeccable`
+From impeccable.style (pbakaus/impeccable, Apache-2.0, v4.10.0). One skill
+with 24 commands such as `/impeccable polish`, `/impeccable audit` and
+`/impeccable critique`, plus anti-pattern detection. Its hooks run a small
+checker at session start and after file edits (it downloads its engine from
+the author's GitHub releases, checksum-verified, the first time).
+
+### `taste-skill`
+From tasteskill.dev (Leonxlnx/taste-skill, MIT, v2.5.1). Builds professional
+company websites at a high design bar and checks them in a real browser.
+Needs Node.js.
+
+### `emil-design`
+From emilkowalski/skill (MIT). 20 skills: animate, choreograph, gestures,
+improve/review/remove animations, animation performance, apple-design,
+break-ui, prototype, pick-ui-library, mobile-native, Sonner, Swift, Expo and
+more.
+
 ## Install
 
 ### Claude Code (terminal / desktop / IDE)
@@ -69,6 +87,9 @@ from the live list. Needs Python 3.
 /plugin install cli-hub@arsenal
 /plugin install cli-anything@arsenal
 /plugin install dev-kit@arsenal
+/plugin install impeccable@arsenal
+/plugin install taste-skill@arsenal
+/plugin install emil-design@arsenal
 ```
 
 ### Cowork (Claude desktop app)
@@ -116,6 +137,9 @@ Skills are copied unchanged from these upstream repos:
 | debpalash/VoiceStudio (skills/voicestudio only) | e9a8bc2 | AGPL-3.0 |
 | kajisho5/ffmpeg-skill (published plugin, copied) | 3db1b2f | MIT |
 | public-apis/public-apis (converted to a searchable catalog) | 4c134b6 | MIT |
+| pbakaus/impeccable (plugin folder) | b49177d | Apache-2.0 |
+| Leonxlnx/taste-skill | 6c0b5c7 | MIT |
+| emilkowalski/skill | 64eb3de | MIT |
 | HKUDS/CLI-Anything (cli-hub-meta-skill and plugin copied) | 34f5195 | Apache-2.0 |
 
 Full license texts are in `licenses/`.

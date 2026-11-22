@@ -48,6 +48,27 @@
       "version": "1.0.0",
       "category": "development",
       "description": "Developer helpers: find a free public API for any task (public-apis catalog with keyword, auth, HTTPS and CORS filters). Needs Python 3."
+    },
+    {
+      "name": "impeccable",
+      "source": "./plugins/impeccable",
+      "version": "4.10.0",
+      "category": "design",
+      "description": "impeccable.style: one design skill with 24 commands (/impeccable polish, audit, critique...) and anti-pattern detection for frontend work. Runs a small checker after edits."
+    },
+    {
+      "name": "taste-skill",
+      "source": "./plugins/taste-skill",
+      "version": "2.5.1",
+      "category": "design",
+      "description": "tasteskill.dev: professional company websites at a high design bar, checked in a real browser. Needs Node.js."
+    },
+    {
+      "name": "emil-design",
+      "source": "./plugins/emil-design",
+      "version": "1.0.0",
+      "category": "design",
+      "description": "Emil Kowalski's 20 design-engineering skills: animation, motion, gestures, polish, UI stress-testing, Apple-style design."
     }
   ]
 }
