@@ -23,14 +23,10 @@
     },
     {
       "name": "ffmpeg-skill",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/kajisho5/ffmpeg-skill.git",
-        "path": "ffmpeg-skill",
-        "ref": "plugin"
-      },
+      "source": "./plugins/ffmpeg-skill",
       "description": "Local FFmpeg video/audio editing: cut, join, reframe, captions, silence removal, loudness, platform exports. Needs FFmpeg 6.1+ and Python 3.10+ on the same computer.",
-      "category": "media"
+      "category": "media",
+      "version": "4.7.0"
     },
     {
       "name": "cli-hub",
@@ -41,14 +37,10 @@
     },
     {
       "name": "cli-anything",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/HKUDS/CLI-Anything.git",
-        "path": "cli-anything-plugin",
-        "ref": "main"
-      },
+      "source": "./plugins/cli-anything",
       "category": "development",
-      "description": "Official CLI-Anything plugin: /cli-anything commands to build, test and refine a new agent-ready CLI for any app that does not have one yet."
+      "description": "Official CLI-Anything plugin: /cli-anything commands to build, test and refine a new agent-ready CLI for any app that does not have one yet.",
+      "version": "1.0.0"
     },
     {
       "name": "dev-kit",

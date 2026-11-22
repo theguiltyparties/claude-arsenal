@@ -30,9 +30,10 @@ https://github.com/debpalash/VoiceStudio/releases/latest.
 
 ### `ffmpeg-skill`
 Local video/audio editing with FFmpeg (cut, join, reframe, captions, silence
-removal, loudness, YouTube/TikTok exports). Not copied here: this entry points
-at the author's own published plugin (kajisho5/ffmpeg-skill, `plugin` branch,
-MIT), because it ships scripts and an MCP server and updates often.
+removal, loudness, YouTube/TikTok exports). Copied from the author's published plugin
+(kajisho5/ffmpeg-skill, `plugin` branch at 3db1b2f, MIT, v4.7.0). Copied
+rather than linked because linking needs a newer `git` than some Macs have.
+To update it, ask Claude to re-copy the latest `plugin` branch.
 **Needs FFmpeg 6.1+ and Python 3.10+ on the same computer**
 (macOS: `brew install ffmpeg`).
 
@@ -45,7 +46,7 @@ skills into every session. Copied from HKUDS/CLI-Anything (Apache-2.0).
 **Needs Python 3 + pip, and the real app installed, on the same computer.**
 
 ### `cli-anything`
-The official CLI-Anything plugin (referenced from HKUDS/CLI-Anything, `main`).
+The official CLI-Anything plugin (copied from HKUDS/CLI-Anything at 34f5195).
 Adds `/cli-anything` commands to build, test and refine a new CLI for an app
 that isn't in the hub yet. Only needed if you want to make new ones.
 
@@ -88,9 +89,9 @@ Two ways:
 - **Copy** a plain skill (just a folder with `SKILL.md` and maybe some
   reference files) into a kit, as below. You control the version.
 - **Point at** a repo that already publishes its own Claude plugin (it has a
-  `.claude-plugin/` folder), the way `ffmpeg-skill` does: add an entry to
-  `.claude-plugin/marketplace.json` with a `github` or `git-subdir` source.
-  Updates come from the author.
+  `.claude-plugin/` folder): add an entry to `.claude-plugin/marketplace.json`
+  with a `github` source. Updates come from the author. Avoid `git-subdir`
+  sources: they need a newer `git` (sparse-checkout) than older Macs have.
 
 To copy a skill:
 
@@ -113,8 +114,8 @@ Skills are copied unchanged from these upstream repos:
 | elayadesign/ai-design-skills | 456d9e0 | MIT |
 | affaan-m/ecc | 4adeee6 | MIT |
 | debpalash/VoiceStudio (skills/voicestudio only) | e9a8bc2 | AGPL-3.0 |
-| kajisho5/ffmpeg-skill (referenced, not copied) | `plugin` branch | MIT |
+| kajisho5/ffmpeg-skill (published plugin, copied) | 3db1b2f | MIT |
 | public-apis/public-apis (converted to a searchable catalog) | 4c134b6 | MIT |
-| HKUDS/CLI-Anything (cli-hub-meta-skill copied; plugin referenced) | 34f5195 / `main` | Apache-2.0 |
+| HKUDS/CLI-Anything (cli-hub-meta-skill and plugin copied) | 34f5195 | Apache-2.0 |
 
 Full license texts are in `licenses/`.
