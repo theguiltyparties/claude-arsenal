@@ -9,9 +9,6 @@
   },
   "homepage": "https://github.com/kajisho5/ffmpeg-skill",
   "repository": "https://github.com/kajisho5/ffmpeg-skill",
-  "documentationUrl": "https://kajisho5.github.io/ffmpeg-skill/",
-  "supportUrl": "https://github.com/kajisho5/ffmpeg-skill/issues",
-  "privacyPolicyUrl": "https://github.com/kajisho5/ffmpeg-skill/blob/main/PRIVACY.md",
   "license": "MIT",
   "keywords": [
     "ffmpeg",
