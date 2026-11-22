@@ -1,0 +1,36 @@
+{
+  "name": "arsenal",
+  "owner": {
+    "name": "theguiltyparties"
+  },
+  "metadata": {
+    "description": "Personal curated set of Claude skills, installable the same way in Claude Code and Cowork."
+  },
+  "plugins": [
+    {
+      "name": "design-kit",
+      "source": "./plugins/design-kit",
+      "description": "Design skills: landing pages, Figma, design direction, design systems, HTML slides, brand voice and discovery, motion, accessibility.",
+      "version": "1.0.0",
+      "category": "design"
+    },
+    {
+      "name": "voice-kit",
+      "source": "./plugins/voice-kit",
+      "description": "Drive a locally running VoiceStudio app (text-to-speech, voice design, transcription, dubbing). Needs VoiceStudio installed on the same computer.",
+      "version": "1.0.0",
+      "category": "media"
+    },
+    {
+      "name": "ffmpeg-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kajisho5/ffmpeg-skill.git",
+        "path": "ffmpeg-skill",
+        "ref": "plugin"
+      },
+      "description": "Local FFmpeg video/audio editing: cut, join, reframe, captions, silence removal, loudness, platform exports. Needs FFmpeg 6.1+ and Python 3.10+ on the same computer.",
+      "category": "media"
+    }
+  ]
+}

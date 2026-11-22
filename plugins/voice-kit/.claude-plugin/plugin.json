@@ -1,0 +1,5 @@
+{
+  "name": "voice-kit",
+  "version": "1.0.0",
+  "description": "Drive a locally running VoiceStudio app (text-to-speech, voice design, transcription, dubbing). Needs VoiceStudio installed on the same computer."
+}
