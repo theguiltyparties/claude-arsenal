@@ -31,6 +31,24 @@
       },
       "description": "Local FFmpeg video/audio editing: cut, join, reframe, captions, silence removal, loudness, platform exports. Needs FFmpeg 6.1+ and Python 3.10+ on the same computer.",
       "category": "media"
+    },
+    {
+      "name": "cli-hub",
+      "source": "./plugins/cli-hub",
+      "version": "1.0.0",
+      "category": "development",
+      "description": "Find and install CLI-Anything tools for desktop apps (GIMP, Blender, OBS, Inkscape, Audacity, LibreOffice...) on demand. Needs Python and pip on the same computer."
+    },
+    {
+      "name": "cli-anything",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/HKUDS/CLI-Anything.git",
+        "path": "cli-anything-plugin",
+        "ref": "main"
+      },
+      "category": "development",
+      "description": "Official CLI-Anything plugin: /cli-anything commands to build, test and refine a new agent-ready CLI for any app that does not have one yet."
     }
   ]
 }

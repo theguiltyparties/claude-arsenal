@@ -1,0 +1,5 @@
+{
+  "name": "cli-hub",
+  "version": "1.0.0",
+  "description": "Find and install CLI-Anything command-line tools for desktop apps (GIMP, Blender, OBS, Inkscape, Audacity, LibreOffice...) on demand, only when a task needs one."
+}

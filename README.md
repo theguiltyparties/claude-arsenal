@@ -36,6 +36,19 @@ MIT), because it ships scripts and an MCP server and updates often.
 **Needs FFmpeg 6.1+ and Python 3.10+ on the same computer**
 (macOS: `brew install ffmpeg`).
 
+### `cli-hub`
+One skill that lets Claude drive desktop apps through CLI-Anything's tools.
+When a task needs an app (GIMP, Blender, OBS, Inkscape, Audacity,
+LibreOffice, Kdenlive, Krita, draw.io, Zotero and ~60 more), it installs just
+that app's CLI with `cli-hub install <name>` instead of loading all 70 app
+skills into every session. Copied from HKUDS/CLI-Anything (Apache-2.0).
+**Needs Python 3 + pip, and the real app installed, on the same computer.**
+
+### `cli-anything`
+The official CLI-Anything plugin (referenced from HKUDS/CLI-Anything, `main`).
+Adds `/cli-anything` commands to build, test and refine a new CLI for an app
+that isn't in the hub yet. Only needed if you want to make new ones.
+
 ## Install
 
 ### Claude Code (terminal / desktop / IDE)
@@ -44,11 +57,13 @@ MIT), because it ships scripts and an MCP server and updates often.
 /plugin install design-kit@arsenal
 /plugin install voice-kit@arsenal
 /plugin install ffmpeg-skill@arsenal
+/plugin install cli-hub@arsenal
+/plugin install cli-anything@arsenal
 ```
 
 ### Cowork (Claude desktop app)
 Add a plugin marketplace from GitHub in the app's plugin settings, enter
-`theguiltyparties/claude-arsenal`, then install `design-kit`, `voice-kit` and `ffmpeg-skill`.
+`theguiltyparties/claude-arsenal`, then install the plugins you want.
 
 The repo is private, so the computer needs to be signed in to GitHub
 (e.g. `gh auth login`) for the marketplace to load.
@@ -90,5 +105,6 @@ Skills are copied unchanged from these upstream repos:
 | affaan-m/ecc | 4adeee6 | MIT |
 | debpalash/VoiceStudio (skills/voicestudio only) | e9a8bc2 | AGPL-3.0 |
 | kajisho5/ffmpeg-skill (referenced, not copied) | `plugin` branch | MIT |
+| HKUDS/CLI-Anything (cli-hub-meta-skill copied; plugin referenced) | 34f5195 / `main` | Apache-2.0 |
 
 Full license texts are in `licenses/`.
