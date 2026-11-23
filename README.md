@@ -5,6 +5,11 @@ works in **Claude Code** and **Cowork**.
 
 ## Plugins
 
+### `arsenal-guide` (install this everywhere)
+Two skills: **my-toolkit** (which tool to use for which job, so Claude picks
+the right one if you forget) and **my-voice-setup** (how VoiceStudio runs in
+Docker on the iMac and which voice engine is allowed for books you sell).
+
 ### `design-kit`
 | Skill | Source | What it does |
 |---|---|---|
@@ -81,6 +86,7 @@ more.
 ### Claude Code (terminal / desktop / IDE)
 ```
 /plugin marketplace add theguiltyparties/claude-arsenal
+/plugin install arsenal-guide@arsenal
 /plugin install design-kit@arsenal
 /plugin install voice-kit@arsenal
 /plugin install ffmpeg-skill@arsenal

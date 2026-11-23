@@ -8,6 +8,13 @@
   },
   "plugins": [
     {
+      "name": "arsenal-guide",
+      "source": "./plugins/arsenal-guide",
+      "version": "1.0.0",
+      "category": "productivity",
+      "description": "Tells Claude what tools you have and how your voice setup works, so it picks the right one without being reminded. Install this everywhere."
+    },
+    {
       "name": "design-kit",
       "source": "./plugins/design-kit",
       "description": "Design skills: landing pages, Figma, design direction, design systems, HTML slides, brand voice and discovery, motion, accessibility.",
