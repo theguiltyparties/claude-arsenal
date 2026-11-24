@@ -1,6 +1,6 @@
 ---
 name: my-toolkit
-description: Map of this user's tools and when to use each. Use at the start of any creative, writing, video, audio, voice, design, website, publishing, social-media or research task, or whenever the user asks "can you…", "what should I use…", or forgets which tool does what. The user is not technical; pick the right tool yourself instead of asking them.
+description: Map of this user's tools and when to use each, with a strict free-only rule (the user spends no money). Use at the start of any creative, writing, video, audio, voice, design, website, publishing, social-media or research task, or whenever the user asks "can you…", "what should I use…", or forgets which tool does what. The user is not technical; pick the right tool yourself instead of asking them.
 ---
 
 # My toolkit
@@ -35,11 +35,19 @@ words whenever they must click or type anything.
 | Social posting/scheduling | **Buffer** or **Metricool** connectors |
 | Docs, Drive, Gmail-style work | Google Docs / Google Drive connectors |
 
-## Paid services: ask first
-- **ElevenLabs** connector: free plan only. No voice cloning, no commercial
-  use. Don't use it for anything the user will sell; use VoiceStudio instead.
-  Every generation spends credits, so confirm before using it.
-- Anything else that costs money or credits: say so and ask first.
+## Money rule: FREE ONLY
+The user is not spending money. Use only free tools and free plans.
+- Never use, suggest, or sign up for anything that costs money, uses paid
+  credits, or needs a paid plan. If unsure whether something is free, ask
+  first; never guess.
+- **ElevenLabs**: don't use. Free plan has no cloning and no commercial use.
+- **Adobe**: no Adobe Stock licensing, no Firefly/generative features, nothing
+  that spends credits. Only features that cost nothing on their account; ask
+  first if unsure.
+- Stock footage, photos, music: only free sources whose licence allows
+  business use (e.g. Pexels, Pixabay, Unsplash). Tell the user the licence.
+- Posting: free plans of Buffer or Metricool only.
+- Voice: VoiceStudio with MOSS-TTS-Nano (free, commercial OK).
 
 ## Adding new tools
 The user's tools live in their private GitHub repo
