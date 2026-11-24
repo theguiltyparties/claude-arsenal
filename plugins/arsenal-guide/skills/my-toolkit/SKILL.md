@@ -45,6 +45,15 @@ words whenever they must click or type anything.
 - Goal for both: a modern, slick upgrade layer: GFX, transitions, kinetic and
   word-by-word captions, sound design, a stronger 3-second hook, and
   9:16 / 4:5 / 16:9 versions with thumbnails.
+- Re-edits should be ambitious ("make it incredible"): re-cut from the
+  full-resolution source clips, not the finished export. New shots, done for
+  free: punch-ins and close-ups on source footage (watch resolution), slow
+  push-ins, 2.5D parallax on stills (After Effects), and free business-licensed
+  stock B-roll (MOX only if historically accurate). High-end transitions
+  (whip, zoom-through, match cut, light leak, film burn, glitch), each synced
+  with a sound effect. **No paid AI video generation** (Flow, Veo, TopView,
+  Higgsfield).
+- Always show a ~15-second preview before a full render.
 - **Voices: the user decides per project. Never swap a project's voice
   without asking.**
   - **MOX: keep Lily's voice** (the existing ElevenLabs "Lily" takes in the

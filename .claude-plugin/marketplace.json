@@ -10,7 +10,7 @@
     {
       "name": "arsenal-guide",
       "source": "./plugins/arsenal-guide",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "productivity",
       "description": "Tells Claude what tools you have and how your voice setup works, so it picks the right one without being reminded. Install this everywhere."
     },
