@@ -65,7 +65,7 @@ as "basic". Every edit must look designed, layered and intentional.
   photos, slight film grain (2–4%), a soft vignette.
 - **Cut-out collage:** photos as torn-edge or white-bordered cut-outs with drop
   shadows, layered on textured backgrounds. Subjects cut out with **rembg**
-  (free, MIT, runs on CPU) and placed on their own layer.
+  (free-ai-kit: local-ai-tools, `cutout.py`) and placed on their own layer.
 - **Archive treatment:** duotone or desaturated plus one accent colour; red,
   yellow or highlighter green against off-black or newsprint cream.
 - **Maps:** draw-on routes, pulsing location dots, labels that pop, a camera push
