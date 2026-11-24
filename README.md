@@ -82,7 +82,9 @@ From impeccable.style (pbakaus/impeccable, Apache-2.0, v4.10.0). One skill
 with 24 commands such as `/impeccable polish`, `/impeccable audit` and
 `/impeccable critique`, plus anti-pattern detection. Its hooks run a small
 checker at session start and after file edits (it downloads its engine from
-the author's GitHub releases, checksum-verified, the first time).
+the author's GitHub releases, checksum-verified, the first time). Arsenal
+change (4.10.1): the hooks' Windows-only fields were removed and the `env`
+setting inlined into the command, so Cowork's sync shows no warnings.
 
 ### `taste-skill`
 From tasteskill.dev (Leonxlnx/taste-skill, MIT, v2.5.1). Builds professional

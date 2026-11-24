@@ -73,7 +73,7 @@
     {
       "name": "impeccable",
       "source": "./plugins/impeccable",
-      "version": "4.10.0",
+      "version": "4.10.1",
       "category": "design",
       "description": "impeccable.style: one design skill with 24 commands (/impeccable polish, audit, critique...) and anti-pattern detection for frontend work. Runs a small checker after edits."
     },
