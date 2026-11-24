@@ -10,6 +10,14 @@ Two skills: **my-toolkit** (which tool to use for which job, so Claude picks
 the right one if you forget) and **my-voice-setup** (how VoiceStudio runs in
 Docker on the iMac and which voice engine is allowed for books you sell).
 
+### `motion-kit`
+**documentary-motion-style** (the Vox/MOX quality bar and build method:
+style bible from references, storyboard, Remotion/After Effects graphics,
+typography, parallax, texture, transitions with sound, mix targets, QA
+checklist), plus **remotion-video-creation**, **video-editing** and
+**motion-advanced** from affaan-m/ecc (MIT). Remotion is free for individuals
+and companies up to 3 people. Needs Node.js.
+
 ### `design-kit`
 | Skill | Source | What it does |
 |---|---|---|
@@ -87,6 +95,7 @@ more.
 ```
 /plugin marketplace add theguiltyparties/claude-arsenal
 /plugin install arsenal-guide@arsenal
+/plugin install motion-kit@arsenal
 /plugin install design-kit@arsenal
 /plugin install voice-kit@arsenal
 /plugin install ffmpeg-skill@arsenal

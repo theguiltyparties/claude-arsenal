@@ -10,9 +10,16 @@
     {
       "name": "arsenal-guide",
       "source": "./plugins/arsenal-guide",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "category": "productivity",
       "description": "Tells Claude what tools you have and how your voice setup works, so it picks the right one without being reminded. Install this everywhere."
+    },
+    {
+      "name": "motion-kit",
+      "source": "./plugins/motion-kit",
+      "version": "1.0.0",
+      "category": "media",
+      "description": "High-end motion graphics: Remotion (code-built typography, GFX, transitions), a Vox/MOX documentary style guide with sound-design and mix standards, and a QA bar against basic edits."
     },
     {
       "name": "design-kit",

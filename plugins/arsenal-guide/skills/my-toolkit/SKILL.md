@@ -81,7 +81,8 @@ words whenever they must click or type anything.
 | Job | Use |
 |---|---|
 | Edit, cut, resize, caption, reframe video/audio, transitions, sound mixing; TikTok/Reels/YouTube exports | **ffmpeg-skill** (local, free) |
-| Motion graphics, kinetic text, title cards, logo stings | **After Effects** via the AfterEffects connector |
+| ANY video upgrade, re-edit, explainer, promo | **motion-kit: documentary-motion-style** first (the quality bar), then build GFX in **Remotion** or **After Effects**; FFmpeg only for assembly |
+| Motion graphics, kinetic text, title cards, logo stings | **Remotion** (motion-kit) or **After Effects** via the AfterEffects connector |
 | Fine editing the user wants to do by hand | **Premiere Pro** hand-off files (XML timeline, .srt, separate layers) |
 | Voiceover, narration, audiobook, read text aloud, clone voice, transcribe | **my-voice-setup** skill (VoiceStudio, local, free) |
 | Photoshop-style edits, background removal, social resizes, PDFs, Adobe Stock, Express designs | **Adobe** connector |
