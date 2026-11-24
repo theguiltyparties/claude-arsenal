@@ -53,7 +53,10 @@ if [ ! -x "$ROOT/venv/bin/python" ]; then
   python3 -m venv "$ROOT/venv"
 fi
 "$ROOT/venv/bin/python" -m pip install -q --upgrade pip
-"$ROOT/venv/bin/python" -m pip install -q "rembg[cpu]>=2.0.88" onnxruntime pillow numpy
+# --only-binary: on Intel Macs the newest numba/llvmlite (pulled in by rembg) ship
+# no ready-made x86_64 builds, and compiling them from source fails. Ready-made
+# builds only makes pip pick the newest versions that do exist for this Mac.
+"$ROOT/venv/bin/python" -m pip install -q --only-binary=:all: "rembg[cpu]>=2.0.88" onnxruntime pillow numpy
 
 # 4. Depth Anything V2 Small (ONNX, Apache-2.0).
 if [ ! -s "$MODELS/depth-anything-v2-small.onnx" ]; then
