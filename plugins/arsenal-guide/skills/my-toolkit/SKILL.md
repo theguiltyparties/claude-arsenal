@@ -42,6 +42,14 @@ words whenever they must click or type anything.
   Bombs" (Tsutomu Yamaguchi), 2-minute vertical. Follow its fact-check rules.
 - **SHIFT** (`~/ClaudeWork/SHIFT`, from `~/Downloads/SHIFT_ASSETS`): 15-second
   spot for a fictional drink, "SHIFT Yuzu Lime". Tagline "Stay in it."
+  Standard: premium beverage commercial (fast, glossy, product-first), not Vox.
+  Known fixes, all free by editing (no new AI footage): can on screen in the
+  first 2 s; show the can opening (punch-in, upscale, RIFE slow-mo, crack sound
+  on the frame); replace the last shot (old can design) with an After Effects
+  product hero end card from the current can artwork. Three SFX downloaded from
+  YouTube must be replaced; ask the user about the music tracks' origin.
+- **MOX** has an approved style bible: `~/ClaudeWork/MOX/_upgrade/MOX_EP01_STYLE_BIBLE.md`
+  ("The Yamaguchi Case File"). Follow it for every MOX edit.
 - Goal for both: a modern, slick upgrade layer: GFX, transitions, kinetic and
   word-by-word captions, sound design, a stronger 3-second hook, and
   9:16 / 4:5 / 16:9 versions with thumbnails.
