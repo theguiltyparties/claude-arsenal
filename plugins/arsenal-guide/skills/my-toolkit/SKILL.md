@@ -54,6 +54,11 @@ words whenever they must click or type anything.
   with a sound effect. **No paid AI video generation** (Flow, Veo, TopView,
   Higgsfield).
 - Always show a ~15-second preview before a full render.
+- **Local AI video generators (MiniMax H3, Wan, Hunyuan, LTX and the like)
+  can't run on this iMac**: no NVIDIA GPU, too little disk, and MiniMax H3's
+  licence reportedly excludes the US/EU/UK. Don't try. Use the free punch-in,
+  parallax, After Effects and stock-footage approach instead. Revisit only if
+  the user gets an NVIDIA PC.
 - **Voices: the user decides per project. Never swap a project's voice
   without asking.**
   - **MOX: keep Lily's voice** (the existing ElevenLabs "Lily" takes in the
