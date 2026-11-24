@@ -46,7 +46,12 @@ words whenever they must click or type anything.
   Known fixes, all free by editing (no new AI footage): can on screen in the
   first 2 s; show the can opening (punch-in, upscale, RIFE slow-mo, crack sound
   on the frame); replace the last shot (old can design) with an After Effects
-  product hero end card from the current can artwork. Three SFX downloaded from
+  product hero end card from the current can artwork. Plus 2–4 close-up
+  cut-ins of her eyes and face (0.5–1.5 s each): punch-in on the sharpest,
+  best-lit source frames, Real-ESRGAN upscale, slow push-in, RIFE slow-mo on
+  blinks and glances, matched grade, subtle catchlight. Reject any frame with
+  AI face artifacts; if no clip has enough detail, tell the user, don't fake
+  it. Three SFX downloaded from
   YouTube must be replaced; ask the user about the music tracks' origin.
 - **MOX** has an approved style bible: `~/ClaudeWork/MOX/_upgrade/MOX_EP01_STYLE_BIBLE.md`
   ("The Yamaguchi Case File"). Follow it for every MOX edit.
