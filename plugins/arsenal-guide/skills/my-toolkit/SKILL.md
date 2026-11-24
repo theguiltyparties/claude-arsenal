@@ -42,7 +42,7 @@ words whenever they must click or type anything.
   Bombs" (Tsutomu Yamaguchi), 2-minute vertical. Follow its fact-check rules.
 - **SHIFT** (`~/ClaudeWork/SHIFT`, from `~/Downloads/SHIFT_ASSETS`): 15-second
   spot for a fictional drink, "SHIFT Yuzu Lime". Tagline "Stay in it."
-  Standard: premium beverage commercial (fast, glossy, product-first), not Vox.
+  Standard: **Lexus-level premium commercial** (motion-kit: premium-commercial-style), not Vox.
   Known fixes, all free by editing (no new AI footage): can on screen in the
   first 2 s; show the can opening (punch-in, upscale, RIFE slow-mo, crack sound
   on the frame); replace the last shot (old can design) with an After Effects
@@ -89,7 +89,8 @@ words whenever they must click or type anything.
 | Job | Use |
 |---|---|
 | Edit, cut, resize, caption, reframe video/audio, transitions, sound mixing; TikTok/Reels/YouTube exports | **ffmpeg-skill** (local, free) |
-| ANY video upgrade, re-edit, explainer, promo | **motion-kit: documentary-motion-style** first (the quality bar), then build GFX in **Remotion** or **After Effects**; FFmpeg only for assembly |
+| Ads, promos, product spots (SHIFT) | **motion-kit: premium-commercial-style** first (Lexus-level bar), then build in After Effects or Remotion |
+| Explainers, history and story videos (MOX) | **motion-kit: documentary-motion-style** first (the quality bar), then build GFX in **Remotion** or **After Effects**; FFmpeg only for assembly |
 | Motion graphics, kinetic text, title cards, logo stings | **Remotion** (motion-kit) or **After Effects** via the AfterEffects connector |
 | Upscale for sharp close-ups, slow motion, cut-outs, depth/parallax | **free-ai-kit: local-ai-tools** (Real-ESRGAN, RIFE, rembg, Depth Anything) |
 | Fine editing the user wants to do by hand | **Premiere Pro** hand-off files (XML timeline, .srt, separate layers) |

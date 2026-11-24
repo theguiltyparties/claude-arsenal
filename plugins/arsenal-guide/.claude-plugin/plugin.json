@@ -1,5 +1,5 @@
 {
   "name": "arsenal-guide",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "Tells Claude what tools this user has (skills, connectors, local apps) and how their voice setup works, so it picks the right one without being reminded."
 }

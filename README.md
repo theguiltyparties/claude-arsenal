@@ -11,6 +11,8 @@ the right one if you forget) and **my-voice-setup** (how VoiceStudio runs in
 Docker on the iMac and which voice engine is allowed for books you sell).
 
 ### `motion-kit`
+**premium-commercial-style** (Lexus-level ads plus what wins on TikTok:
+hook, product grammar, light sweeps, grade, minimal type, ASMR sound, QA),
 **documentary-motion-style** (the Vox/MOX quality bar and build method:
 style bible from references, storyboard, Remotion/After Effects graphics,
 typography, parallax, texture, transitions with sound, mix targets, QA
