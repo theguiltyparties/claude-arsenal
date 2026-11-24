@@ -29,7 +29,7 @@ path errors, add `-g -1` (CPU, slower).
 Paths after setup:
 ```
 T=~/ClaudeWork/.ai-tools
-$T/bin/realesrgan/realesrgan-ncnn-vulkan
+$T/bin/realesrgan/realesrgan-ncnn-vulkan   (model dir: $T/bin/realesrgan/models, always pass -m)
 $T/bin/rife/rife-ncnn-vulkan   (model dir: $T/bin/rife/rife-v4.6)
 $T/venv/bin/python <skill-dir>/scripts/cutout.py
 $T/venv/bin/python <skill-dir>/scripts/depth.py
@@ -42,11 +42,24 @@ about 1.3×). Upscale only the frames of that shot:
 ```bash
 mkdir -p f up
 ffmpeg -ss START -to END -i clip.mp4 -qscale:v 1 f/%06d.jpg
-$T/bin/realesrgan/realesrgan-ncnn-vulkan -i f -o up -n realesrgan-x4plus -s 2 -f jpg
-ffmpeg -framerate FPS -i up/%06d.jpg -c:v libx264 -crf 14 -pix_fmt yuv420p shot_2x.mp4
+$T/bin/realesrgan/realesrgan-ncnn-vulkan -i f -o up -n realesrgan-x4plus -s 4 -f jpg -m $T/bin/realesrgan/models
+ffmpeg -framerate FPS -i up/%06d.jpg -vf "scale=iw/2:ih/2:flags=lanczos" -c:v libx264 -crf 14 -pix_fmt yuv420p shot_2x.mp4
 ```
+Two rules, both learned the hard way on this iMac:
+- **Always pass `-m $T/bin/realesrgan/models`.** Without it the tool looks for
+  `models/` in the current folder, finds nothing, writes nothing, and still
+  exits 0.
+- **`realesrgan-x4plus` only works at `-s 4`.** `-s 2` produces a scrambled
+  image of shifted tiles. For 2×, upscale 4× and then halve it with Lanczos
+  (as above). Check the output looks like the input before using it.
+
 Use `realesrgan-x4plus` for photos and real footage (`realesr-animevideov3` is
-for animation). Upscale archive photos the same way, one image at a time.
+for animation). Archive photos, one image at a time:
+```bash
+$T/bin/realesrgan/realesrgan-ncnn-vulkan -i photo.jpg -o photo_4x.png -n realesrgan-x4plus -s 4 -m $T/bin/realesrgan/models
+ffmpeg -i photo_4x.png -vf "scale=iw/2:ih/2:flags=lanczos" photo_2x.png && rm photo_4x.png
+```
+A 1280×969 photo takes about 30 seconds on the Radeon Pro 580.
 
 **Smooth slow motion or speed ramp:**
 ```bash
@@ -74,8 +87,15 @@ original fps for slow motion, or at 2× fps for smoother motion.
 drop shadow and paper texture in Remotion or After Effects.
 
 ## Speed on this iMac (be realistic)
-GPU upscaling is about seconds per 1080p frame, so use it on **specific shots and
-stills**, not whole long videos. A full 2-minute video would take hours.
+Measured on the Radeon Pro 580:
+- Real-ESRGAN 4×: about 30 s for a 1280×969 photo, and roughly 40–60 s per
+  1080×1920 video frame (15 frames took over 10 minutes). A 2-second, 60-frame
+  shot is about an hour. Use it on **stills and very short shots only**, never
+  whole videos, and run long jobs in the background.
+- RIFE 2×: about 20 s for 60 frames of 1080×1920. Fine for whole shots.
+- rembg cut-out: 3–7 s per photo (CPU). Best when the photo has one clear
+  subject; when the subject fills the frame it may grab only a detail.
+- Depth Anything V2: about 1 s per photo (CPU).
 Process only the frames the edit needs, and check disk space first (frames are
 large; delete the `f/`, `up/` and `s/` folders when done).
 

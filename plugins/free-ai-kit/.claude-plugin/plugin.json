@@ -1,5 +1,5 @@
 {
   "name": "free-ai-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Free local AI helpers for video on an Intel Mac: Real-ESRGAN upscaling, RIFE slow motion, rembg cut-outs, Depth Anything V2 depth maps for 2.5D parallax."
 }
