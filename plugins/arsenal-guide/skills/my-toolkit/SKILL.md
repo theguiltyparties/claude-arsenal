@@ -51,7 +51,12 @@ words whenever they must click or type anything.
   best-lit source frames, Real-ESRGAN upscale, slow push-in, RIFE slow-mo on
   blinks and glances, matched grade, subtle catchlight. Reject any frame with
   AI face artifacts; if no clip has enough detail, tell the user, don't fake
-  it. Three SFX downloaded from
+  it. Also a close-up of her hand picking up the can (macro punch-in, speed
+  ramp into slow-mo as the fingers close, condensation glint, pick-up and
+  fizz sound on the frame). Use only real source frames that show it; check
+  the fingers for AI artifacts (count, shape, merging). If no clip shows a
+  pick-up, say so and offer a product-lift move in AE (can cut-out rising,
+  light sweep) instead of faking a hand. Three SFX downloaded from
   YouTube must be replaced; ask the user about the music tracks' origin.
 - **MOX** has an approved style bible: `~/ClaudeWork/MOX/_upgrade/MOX_EP01_STYLE_BIBLE.md`
   ("The Yamaguchi Case File"). Follow it for every MOX edit.
