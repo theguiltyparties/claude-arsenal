@@ -32,8 +32,11 @@ Before switching engines for a commercial job, check its licence card says
 "Commercial use of generated audio: Allowed".
 
 ## The user's voice
-- Saved voice profile: **"Mark Voice Clone"** (cloned from the user's own
-  recording, with consent). Use it when they say "my voice".
+- Saved voice profiles (cloned from the user's own recording, with consent):
+  - **"Mark Voice Clone (short)"**: **use this one with MOSS-TTS-Nano.**
+  - "Mark Voice Clone" (long sample): makes MOSS-TTS-Nano produce gibberish.
+    Don't use it with MOSS.
+  Use the short one whenever the user says "my voice".
 - Clone only voices the user has permission to use.
 
 ## Writing scripts for it

@@ -20,10 +20,45 @@ words whenever they must click or type anything.
   that needs VoiceStudio, FFmpeg or local files must run in Claude on the Mac
   (Code tab or Terminal), not in the cloud.
 
+## Apps the user owns (free to use: already paid for)
+- **Adobe Photoshop, Premiere Pro, After Effects** are installed on the iMac
+  (Creative Cloud). Using them costs nothing extra.
+- **After Effects**: a local **AfterEffects** MCP connector ("Local dev") is set
+  up on the Mac. Use it for motion graphics, kinetic text, title cards, lower
+  thirds and logo stings. Test what its tools can do before relying on them.
+- **Premiere Pro**: there is **no Premiere connector**, but Claude has used
+  Premiere for the user before. Check how first: Premiere scripting
+  (ExtendScript/UXP, e.g. via `osascript`), or computer use (see the screen and
+  click) in the desktop app. Otherwise hand off Premiere-ready files: an XML/EDL
+  timeline, `.srt` captions, and separate voice, music, SFX and graphics layers.
+- **flow** local MCP connector = Google Flow/Veo video generation. It **uses
+  paid credits**, so don't use it (free-only rule).
+- The **Adobe** connector is Adobe's online tools, not these desktop apps. It
+  may ask the user to sign in again.
+
+## Ongoing projects (in ~/ClaudeWork; originals stay in ~/Downloads)
+- **MOX** (`~/ClaudeWork/MOX`, from `~/Downloads/_MOX`): MOX International
+  "STORY BOLD" history shorts. Episode 01 "The Man Who Survived Two Atomic
+  Bombs" (Tsutomu Yamaguchi), 2-minute vertical. Follow its fact-check rules.
+- **SHIFT** (`~/ClaudeWork/SHIFT`, from `~/Downloads/SHIFT_ASSETS`): 15-second
+  spot for a fictional drink, "SHIFT Yuzu Lime". Tagline "Stay in it."
+- Goal for both: a modern, slick upgrade layer: GFX, transitions, kinetic and
+  word-by-word captions, sound design, a stronger 3-second hook, the user's own
+  voice, and 9:16 / 4:5 / 16:9 versions with thumbnails.
+- Old voiceovers in these projects were made with ElevenLabs (Lily, Bella,
+  Sarah), probably on the free plan, so they may not be cleared for business
+  use. Replace them with the user's voice.
+- Sound effects or music of unknown origin (e.g. downloaded from YouTube): swap
+  them for free business-licensed ones (Pixabay, Freesound CC0).
+- The iMac has limited free disk space (about 21 GB). Check before big renders
+  and clean up temp files.
+
 ## Which tool for which job
 | Job | Use |
 |---|---|
-| Edit, cut, resize, caption, reframe video/audio; TikTok/Reels/YouTube exports | **ffmpeg-skill** (local, free) |
+| Edit, cut, resize, caption, reframe video/audio, transitions, sound mixing; TikTok/Reels/YouTube exports | **ffmpeg-skill** (local, free) |
+| Motion graphics, kinetic text, title cards, logo stings | **After Effects** via the AfterEffects connector |
+| Fine editing the user wants to do by hand | **Premiere Pro** hand-off files (XML timeline, .srt, separate layers) |
 | Voiceover, narration, audiobook, read text aloud, clone voice, transcribe | **my-voice-setup** skill (VoiceStudio, local, free) |
 | Photoshop-style edits, background removal, social resizes, PDFs, Adobe Stock, Express designs | **Adobe** connector |
 | Landing page / website build | **taste-skill** for a polished company site; **design-kit: landing-page-design** for conversion-focused pages |
