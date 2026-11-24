@@ -82,7 +82,8 @@ as "basic". Every edit must look designed, layered and intentional.
   at different speeds with slight scale. Optional depth map from Depth Anything
   V2 **Small** (Apache-2.0, CPU-friendly) for displacement.
 - **Punch-ins** for close-ups on faces, hands, documents and objects, from the
-  highest-resolution source; never punch past about 1.5× on 1080 sources.
+  highest-resolution source. Past about 1.3× on 1080 sources, upscale that shot
+  first with Real-ESRGAN (free-ai-kit). Smooth slow-mo and speed ramps with RIFE.
 
 ## 5. Transitions (with sound)
 Vocabulary, all built in Remotion or AE:

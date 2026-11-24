@@ -83,6 +83,7 @@ words whenever they must click or type anything.
 | Edit, cut, resize, caption, reframe video/audio, transitions, sound mixing; TikTok/Reels/YouTube exports | **ffmpeg-skill** (local, free) |
 | ANY video upgrade, re-edit, explainer, promo | **motion-kit: documentary-motion-style** first (the quality bar), then build GFX in **Remotion** or **After Effects**; FFmpeg only for assembly |
 | Motion graphics, kinetic text, title cards, logo stings | **Remotion** (motion-kit) or **After Effects** via the AfterEffects connector |
+| Upscale for sharp close-ups, slow motion, cut-outs, depth/parallax | **free-ai-kit: local-ai-tools** (Real-ESRGAN, RIFE, rembg, Depth Anything) |
 | Fine editing the user wants to do by hand | **Premiere Pro** hand-off files (XML timeline, .srt, separate layers) |
 | Voiceover, narration, audiobook, read text aloud, clone voice, transcribe | **my-voice-setup** skill (VoiceStudio, local, free) |
 | Photoshop-style edits, background removal, social resizes, PDFs, Adobe Stock, Express designs | **Adobe** connector |

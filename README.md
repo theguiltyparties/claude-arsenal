@@ -18,6 +18,12 @@ checklist), plus **remotion-video-creation**, **video-editing** and
 **motion-advanced** from affaan-m/ecc (MIT). Remotion is free for individuals
 and companies up to 3 people. Needs Node.js.
 
+### `free-ai-kit`
+**local-ai-tools**: Real-ESRGAN (BSD-3) upscaling, RIFE v4.6 (MIT) slow motion,
+rembg (MIT) cut-outs and Depth Anything V2 Small (Apache-2.0) depth maps, with
+a one-time `setup.sh` (checksums verified) and tested `cutout.py` / `depth.py`
+helpers. Installs into `~/ClaudeWork/.ai-tools`. About 1.5 GB.
+
 ### `design-kit`
 | Skill | Source | What it does |
 |---|---|---|
@@ -96,6 +102,7 @@ more.
 /plugin marketplace add theguiltyparties/claude-arsenal
 /plugin install arsenal-guide@arsenal
 /plugin install motion-kit@arsenal
+/plugin install free-ai-kit@arsenal
 /plugin install design-kit@arsenal
 /plugin install voice-kit@arsenal
 /plugin install ffmpeg-skill@arsenal
@@ -155,6 +162,9 @@ Skills are copied unchanged from these upstream repos:
 | pbakaus/impeccable (plugin folder) | b49177d | Apache-2.0 |
 | Leonxlnx/taste-skill | 6c0b5c7 | MIT |
 | emilkowalski/skill | 64eb3de | MIT |
+| Real-ESRGAN ncnn-vulkan macOS 20220424 (downloaded by setup.sh) | v0.2.5.0 | BSD-3 |
+| rife-ncnn-vulkan macOS (downloaded by setup.sh) | 20221029 | MIT |
+| rembg (pip) / Depth Anything V2 Small ONNX (downloaded) | 2.0.88+ / onnx-community | MIT / Apache-2.0 |
 | HKUDS/CLI-Anything (cli-hub-meta-skill and plugin copied) | 34f5195 | Apache-2.0 |
 
 Full license texts are in `licenses/`.
