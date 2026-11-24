@@ -43,11 +43,21 @@ words whenever they must click or type anything.
 - **SHIFT** (`~/ClaudeWork/SHIFT`, from `~/Downloads/SHIFT_ASSETS`): 15-second
   spot for a fictional drink, "SHIFT Yuzu Lime". Tagline "Stay in it."
 - Goal for both: a modern, slick upgrade layer: GFX, transitions, kinetic and
-  word-by-word captions, sound design, a stronger 3-second hook, the user's own
-  voice, and 9:16 / 4:5 / 16:9 versions with thumbnails.
-- Old voiceovers in these projects were made with ElevenLabs (Lily, Bella,
-  Sarah), probably on the free plan, so they may not be cleared for business
-  use. Replace them with the user's voice.
+  word-by-word captions, sound design, a stronger 3-second hook, and
+  9:16 / 4:5 / 16:9 versions with thumbnails.
+- **Voices: the user decides per project. Never swap a project's voice
+  without asking.**
+  - **MOX: keep Lily's voice** (the existing ElevenLabs "Lily" takes in the
+    project). Do NOT use the user's cloned voice on MOX. Re-use the existing
+    Lily recordings. If a new Lily line is ever needed, it would come from
+    ElevenLabs, so ask first (credits, and the free plan doesn't allow
+    commercial use).
+  - **SHIFT: keep the existing voiceover (Bella/Sarah)** unless the user says
+    otherwise.
+  - The user's cloned voice is for projects where they ask for "my voice".
+- Licence note (tell the user once, then follow their call): the ElevenLabs
+  takes may not be cleared for business use if they were made on the free
+  plan.
 - Sound effects or music of unknown origin (e.g. downloaded from YouTube): swap
   them for free business-licensed ones (Pixabay, Freesound CC0).
 - The iMac has limited free disk space (about 21 GB). Check before big renders
