@@ -64,6 +64,11 @@ words whenever they must click or type anything.
   design** (suck-in, big sub-bass impact and explosion, rumble and debris
   tail, tinnitus ring) and a **white-out held about 1 s**, not silence or a
   4-frame blink.
+- **The user is the creative director.** Never remove, mute or tone down an
+  expected big moment (explosion, impact, flash, music hit, effect) because
+  of "taste", restraint or an old notes file. If you think it should be
+  quieter or cut, **ask first** and do what the user says. Never present
+  your own creative preference as already decided.
 - **Sound design is a must on every video.** Never leave a big story moment
   (explosion, crash, reveal, impact) silent or "tasteful-quiet" unless the
   user asks for that. Build layered SFX for it and let the key hit punch
