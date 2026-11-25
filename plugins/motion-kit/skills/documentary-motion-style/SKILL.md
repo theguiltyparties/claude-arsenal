@@ -9,6 +9,51 @@ The user is a professional video editor. A plain FFmpeg edit (crossfades,
 `drawtext` captions, a zoom or two) is **not acceptable** and will be rejected
 as "basic". Every edit must look designed, layered and intentional.
 
+## HARD RULES: the user's Vox/MOX editing grammar (these override anything below)
+The user is a professional editor. Vox/MOX style means **lively, fast,
+kinetic, every frame designed**. A slow, medium-shot, card-on-black edit is
+a failure even if it's tidy. Check every rule on every shot:
+
+1. **No black or empty backgrounds, ever.** Every frame is covered edge to
+   edge with a recognisable, lit, textured, layered world (desk, board,
+   documents, maps, photos you can actually read) with constant subtle motion.
+2. **The camera never sits still.** Every shot pushes, pulls, drifts or
+   snaps. Shot size changes every 1–2 s: wide, medium, close-up, extreme
+   close-up. Default openings: **start tight and pull out**, or punch in.
+3. **The camera moves with the words.** When Lily says a place, name, date,
+   number or key word, snap or zoom to it on that word (e.g. "Nagasaki" means
+   go tight on NAGASAKI).
+4. **Annotations mean a cut.** When a circle, marker, stamp or arrow lands,
+   cut or snap-zoom to a close-up of it immediately.
+5. **New images take over the frame.** A new photo or card covers the full
+   screen (slide, wipe, push or whip) so you're cutting to the next shot. Never
+   paste a new image over part of the old one and leave both sitting there.
+6. **Fast transitions:** whips, slides, pushes and snap zooms of 6–10
+   frames. Slow dissolves and slow pans are not allowed. **Every transition
+   has a layered whoosh** matched to its speed and direction.
+7. **All text animates and has sound:** typed letter by letter with a
+   typewriter key on every letter (plus a bell or stamp at the end); labels
+   slam or slide with a hit. Never silent text.
+8. **Kinetic typography moments:** key lines become **full-screen type, one
+   word at a time**, mixed fonts, sizes and weights, timed to the voice. Use
+   them instead of extra cards when a card isn't needed.
+9. **Captions are designed, not plain:** bold, animated word by word
+   (scale-pop or slide), an active-word highlight, a consistent style, never
+   overlapping graphics, inside the safe zones.
+10. **Alignment:** text sits on the grid of whatever it's on (index-card lines,
+    labels, margins). Nothing jumbled or floating.
+11. **Big moments get everything:** explosions and flashes get glow and bloom
+    build-up, a white-out held about 1 s, and full layered sound (suck-in,
+    sub impact, explosion, rumble tail, ring-out).
+12. **Sound design is the most important layer.** Every action, move, text
+    pop and transition has a designed, layered sound on the exact frame.
+13. **Review fast:** render drafts at **half resolution, draft quality, no motion
+    blur** (or send the user to the After Effects timeline preview) so they can
+    see it in minutes. Full-quality renders only after their OK.
+14. **Self-check before showing:** watch the draft at full speed. If any shot
+    holds still for over 1.5 s, any text is silent, any background is empty,
+    or any transition is slow, fix it first.
+
 ## 0. Build method (do this, in order)
 
 1. **Study the references before designing anything.** Extract a frame every
@@ -86,7 +131,9 @@ as "basic". Every edit must look designed, layered and intentional.
   first with Real-ESRGAN (free-ai-kit). Smooth slow-mo and speed ramps with RIFE.
 
 ## 5. Transitions (with sound)
-Vocabulary, all built in Remotion or AE:
+(Hard rule 6 applies: fast and sound-designed. Whips, slides, pushes and
+snap zooms are the default for Vox/MOX.) Vocabulary, all built in Remotion or
+AE:
 - Whip pan with directional motion blur
 - Zoom-through (into a detail, out the other side)
 - Match cut on shape or colour

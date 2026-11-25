@@ -10,6 +10,20 @@ won't remember tool names. Choose the right tool yourself, say in one plain
 sentence which one you're using, and give step-by-step instructions in plain
 words whenever they must click or type anything.
 
+## For every video job: load the skills first (mandatory)
+Before planning or editing any video, **invoke these skills by name and follow
+them**, then tell the user which ones you used:
+- Story, explainer or history videos (MOX): `motion-kit:documentary-motion-style`
+  (read its HARD RULES first)
+- Ads and promos (SHIFT): `motion-kit:premium-commercial-style`
+- Editing, conform, sound mix and exports: `ffmpeg-skill:ffmpeg-skill`
+- Upscaling, slow-mo, cut-outs, depth: `free-ai-kit:local-ai-tools`
+- Animation craft: `emil-design` skills (`animate`, `choreograph`)
+- Typography and design polish: `impeccable:impeccable`, `design-kit` skills
+- Voice: `arsenal-guide:my-voice-setup`
+Don't work from memory or a generic "polish" idea. The user loaded these
+tools so they'd be used.
+
 ## Their computer
 - 2017 Intel iMac, macOS Ventura 13.7.8, 64 GB RAM. No Homebrew (Intel Macs
   aren't supported). Docker Desktop 4.44.1 (do not let it update: newer
