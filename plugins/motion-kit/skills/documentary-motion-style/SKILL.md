@@ -106,6 +106,11 @@ than 2–3 transition types per piece; consistency reads as premium.
   - Freesound **CC0** (CC-BY only with credit; never CC-BY-NC)
   - Sonniss GDC free bundles (royalty-free, commercial)
   - Never BBC Sound Effects (non-commercial) or anything ripped from YouTube.
+- **Big story moments (explosions, impacts, crashes) get full sound design:**
+  suck-in (sound drops, a reversed swell) → a big sub-bass impact on the visual
+  hit → a rumble and debris tail → an optional tinnitus or ring-out. Pair it
+  with a held white-out or flash (about 1 s, slow return). Silence is a choice
+  for after the hit, never a replacement for it.
 - **Music:** the project's own track if it's licensed, otherwise free
   business-licensed beds; edit to the beats so cuts land on the music.
 - **Mix targets (social):** dialogue around −14 LUFS integrated; music ducked

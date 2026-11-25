@@ -59,7 +59,15 @@ words whenever they must click or type anything.
   light sweep) instead of faking a hand. Three SFX downloaded from
   YouTube must be replaced; ask the user about the music tracks' origin.
 - **MOX** has an approved style bible: `~/ClaudeWork/MOX/_upgrade/MOX_EP01_STYLE_BIBLE.md`
-  ("The Yamaguchi Case File"). Follow it for every MOX edit.
+  ("The Yamaguchi Case File"). Follow it for every MOX edit, **except** where
+  the user has overridden it: bomb and explosion moments get **full sound
+  design** (suck-in, big sub-bass impact and explosion, rumble and debris
+  tail, tinnitus ring) and a **white-out held about 1 s**, not silence or a
+  4-frame blink.
+- **Sound design is a must on every video.** Never leave a big story moment
+  (explosion, crash, reveal, impact) silent or "tasteful-quiet" unless the
+  user asks for that. Build layered SFX for it and let the key hit punch
+  (still ≤ −1 dBTP).
 - Goal for both: a modern, slick upgrade layer: GFX, transitions, kinetic and
   word-by-word captions, sound design, a stronger 3-second hook, and
   9:16 / 4:5 / 16:9 versions with thumbnails.
