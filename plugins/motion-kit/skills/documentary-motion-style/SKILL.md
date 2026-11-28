@@ -75,8 +75,10 @@ a failure even if it's tidy. Check every rule on every shot:
      (test first). The user owns AE.
    - **FFmpeg only for**: trimming source clips, conforming formats, final
      assembly, loudness and exports.
-4. **Render a 10–15 s preview of the hardest section first.** Run the QA
-   checklist (section 7) on it yourself before showing the user.
+4. **Render a fast DRAFT of the whole piece** (half resolution, draft quality,
+   motion blur off) so the user can review it in minutes, or point them to the
+   After Effects timeline. Run the QA checklist (section 7) on it yourself
+   first.
 5. Only then render the full piece and the platform versions.
 
 ## 1. Pacing

@@ -98,7 +98,9 @@ tools so they'd be used.
   (whip, zoom-through, match cut, light leak, film burn, glitch), each synced
   with a sound effect. **No paid AI video generation** (Flow, Veo, TopView,
   Higgsfield).
-- Always show a ~15-second preview before a full render.
+- Before any full-quality render, show the user a fast **draft of the whole
+  piece** (half resolution, draft quality, motion blur off). No partial
+  15-second previews unless they ask for one.
 - **Local AI video generators (MiniMax H3, Wan, Hunyuan, LTX and the like)
   can't run on this iMac**: no NVIDIA GPU, too little disk, and MiniMax H3's
   licence reportedly excludes the US/EU/UK. Don't try. Use the free punch-in,

@@ -21,7 +21,8 @@ light.**
    (motion-kit) for the product hero, light sweeps, type and end card.
    free-ai-kit for upscaling (Real-ESRGAN) and slow motion (RIFE). FFmpeg only
    for conform, assembly, loudness and exports.
-4. **15 s preview of the hardest moments first**, harsh self-QA (section 8),
+4. **Fast DRAFT of the whole spot first** (half resolution, draft quality,
+   motion blur off), harsh self-QA (section 8),
    then the full render.
 
 ## 1. Structure (15 s; scale up for 30 s)
