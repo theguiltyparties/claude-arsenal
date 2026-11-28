@@ -115,7 +115,7 @@
     {
       "name": "openseo",
       "source": "./plugins/openseo",
-      "version": "1.0.29-1",
+      "version": "1.0.30",
       "category": "marketing",
       "description": "OpenSEO: keyword research, competitor research, backlinks, site audits, rank tracking and AI visibility through the OpenSEO MCP. Free to try on openseo.so; data beyond the free allowance is pay-as-you-go."
     }
