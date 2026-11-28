@@ -51,6 +51,7 @@ tools so they'd be used.
   may ask the user to sign in again.
 
 ## Ongoing projects (in ~/ClaudeWork; originals stay in ~/Downloads)
+- **MOX is ON HOLD** (user's decision). Don't work on it unless the user asks.
 - **MOX** (`~/ClaudeWork/MOX`, from `~/Downloads/_MOX`): MOX International
   "STORY BOLD" history shorts. Episode 01 "The Man Who Survived Two Atomic
   Bombs" (Tsutomu Yamaguchi), 2-minute vertical. Follow its fact-check rules.
