@@ -116,6 +116,12 @@ From tonone-ai (via tons-of-skills-marketplace, MIT). Agents Ink, Buzz and Pitch
 plus 12 skills: launches, positioning, messaging, copy, landing pages, content
 briefs and clusters, distribution, outreach.
 
+### `openseo`
+From every-app/open-seo (MIT). 9 SEO skills plus the OpenSEO MCP
+(app.openseo.so/mcp): keyword research, competitors, backlinks, site audits,
+rank tracking, AI visibility. Free to try with an openseo.so account; SEO data
+beyond the free allowance is pay-as-you-go (DataForSEO), so Claude asks first.
+
 ## Install
 
 ### Claude Code (terminal / desktop / IDE)
@@ -133,6 +139,7 @@ briefs and clusters, distribution, outreach.
 /plugin install motionsites-web-builder@arsenal
 /plugin install social-kit@arsenal
 /plugin install marketing-team@arsenal
+/plugin install openseo@arsenal
 /plugin install impeccable@arsenal
 /plugin install taste-skill@arsenal
 /plugin install emil-design@arsenal
@@ -192,6 +199,7 @@ Skills are copied unchanged from these upstream repos:
 | Motionsites-AI/claude-skill | 2.0.0 | MIT (code) / © MotionSites (examples, media) |
 | vyralcontent/content-skills | 349e495 | MIT |
 | tonone-ai marketing-team (tons-of-skills-marketplace) | 1.9.1 | MIT |
+| every-app/open-seo (plugins/openseo) | 6f68494 | MIT |
 | HKUDS/CLI-Anything (cli-hub-meta-skill and plugin copied) | 34f5195 | Apache-2.0 |
 
 Full license texts are in `licenses/`.

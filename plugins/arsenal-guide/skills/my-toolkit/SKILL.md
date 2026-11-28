@@ -137,6 +137,7 @@ tools so they'd be used.
 | Cinematic landing page from real designs and free background videos | **motionsites-web-builder** (also the MotionSites connector) |
 | Hooks, captions, CTAs, TikTok/Reels/Shorts scripts, post ideas | **social-kit** (Vyral skills) |
 | Launch plans, positioning, marketing copy, content calendars, outreach | **marketing-team** (Ink, Buzz, Pitch) |
+| SEO: keywords, competitors, backlinks, site audits, rankings | **openseo** (free allowance on openseo.so; **ask before** anything beyond it, since extra data is pay-as-you-go) |
 | Polish or critique an existing design | **impeccable** (`/impeccable polish`, `audit`, `critique`) |
 | Animation, motion, gestures, UI polish | **emil-design** skills |
 | Brand identity, brand voice, slides, design systems, Figma | **design-kit** |
