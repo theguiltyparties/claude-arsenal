@@ -99,6 +99,23 @@ improve/review/remove animations, animation performance, apple-design,
 break-ui, prototype, pick-ui-library, mobile-native, Sonner, Swift, Expo and
 more.
 
+### `motionsites-web-builder`
+From Motionsites-AI/claude-skill. Builds cinematic landing pages from real
+MotionSites designs and free background videos, then screenshots and fixes the
+result (needs Python + Playwright for the screenshot step). Skill code MIT; the
+example prompts and media are © MotionSites, usable for building sites
+(including for clients) but not for resale as a collection.
+
+### `social-kit`
+From vyralcontent/content-skills (MIT). 7 skills: viral-hooks,
+viral-captions-and-ctas, viral-tiktok-content, viral-instagram-reels,
+viral-youtube-shorts, viral-short-form, viral-short-form-ideas.
+
+### `marketing-team`
+From tonone-ai (via tons-of-skills-marketplace, MIT). Agents Ink, Buzz and Pitch
+plus 12 skills: launches, positioning, messaging, copy, landing pages, content
+briefs and clusters, distribution, outreach.
+
 ## Install
 
 ### Claude Code (terminal / desktop / IDE)
@@ -113,6 +130,9 @@ more.
 /plugin install cli-hub@arsenal
 /plugin install cli-anything@arsenal
 /plugin install dev-kit@arsenal
+/plugin install motionsites-web-builder@arsenal
+/plugin install social-kit@arsenal
+/plugin install marketing-team@arsenal
 /plugin install impeccable@arsenal
 /plugin install taste-skill@arsenal
 /plugin install emil-design@arsenal
@@ -169,6 +189,9 @@ Skills are copied unchanged from these upstream repos:
 | Real-ESRGAN ncnn-vulkan macOS 20220424 (downloaded by setup.sh) | v0.2.5.0 | BSD-3 |
 | rife-ncnn-vulkan macOS (downloaded by setup.sh) | 20221029 | MIT |
 | rembg (pip) / Depth Anything V2 Small ONNX (downloaded) | 2.0.88+ / onnx-community | MIT / Apache-2.0 |
+| Motionsites-AI/claude-skill | 2.0.0 | MIT (code) / © MotionSites (examples, media) |
+| vyralcontent/content-skills | 349e495 | MIT |
+| tonone-ai marketing-team (tons-of-skills-marketplace) | 1.9.1 | MIT |
 | HKUDS/CLI-Anything (cli-hub-meta-skill and plugin copied) | 34f5195 | Apache-2.0 |
 
 Full license texts are in `licenses/`.

@@ -10,7 +10,7 @@
     {
       "name": "arsenal-guide",
       "source": "./plugins/arsenal-guide",
-      "version": "1.11.0",
+      "version": "1.12.0",
       "category": "productivity",
       "description": "Tells Claude what tools you have and how your voice setup works, so it picks the right one without being reminded. Install this everywhere."
     },
@@ -90,6 +90,27 @@
       "version": "1.0.0",
       "category": "design",
       "description": "Emil Kowalski's 20 design-engineering skills: animation, motion, gestures, polish, UI stress-testing, Apple-style design."
+    },
+    {
+      "name": "motionsites-web-builder",
+      "source": "./plugins/motionsites-web-builder",
+      "version": "2.0.0",
+      "category": "design",
+      "description": "MotionSites: cinematic, award-level landing pages and hero sections from 16 real designs, 76 free background videos, 55+ technique recipes, plus a screenshot-and-fix step."
+    },
+    {
+      "name": "social-kit",
+      "source": "./plugins/social-kit",
+      "version": "1.0.0",
+      "category": "marketing",
+      "description": "Vyral content skills: viral hooks, captions and CTAs, TikTok, Reels and YouTube Shorts scripts, and short-form ideas at volume."
+    },
+    {
+      "name": "marketing-team",
+      "source": "./plugins/marketing-team",
+      "version": "1.9.1",
+      "category": "marketing",
+      "description": "tonone marketing team: 3 agents (Ink content, Buzz outreach, Pitch positioning) with 12 skills for launches, copy, landing pages, content calendars and distribution."
     }
   ]
 }

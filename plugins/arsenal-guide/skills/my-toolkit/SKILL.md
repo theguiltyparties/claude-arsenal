@@ -134,6 +134,9 @@ tools so they'd be used.
 | Voiceover, narration, audiobook, read text aloud, clone voice, transcribe | **my-voice-setup** skill (VoiceStudio, local, free) |
 | Photoshop-style edits, background removal, social resizes, PDFs, Adobe Stock, Express designs | **Adobe** connector |
 | Landing page / website build | **taste-skill** for a polished company site; **design-kit: landing-page-design** for conversion-focused pages |
+| Cinematic landing page from real designs and free background videos | **motionsites-web-builder** (also the MotionSites connector) |
+| Hooks, captions, CTAs, TikTok/Reels/Shorts scripts, post ideas | **social-kit** (Vyral skills) |
+| Launch plans, positioning, marketing copy, content calendars, outreach | **marketing-team** (Ink, Buzz, Pitch) |
 | Polish or critique an existing design | **impeccable** (`/impeccable polish`, `audit`, `critique`) |
 | Animation, motion, gestures, UI polish | **emil-design** skills |
 | Brand identity, brand voice, slides, design systems, Figma | **design-kit** |
